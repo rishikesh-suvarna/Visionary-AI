@@ -23,6 +23,7 @@ export const connectToDatabase = async () => {
     }
 
     const opts = {
+        dbName: 'VisionaryAI',
         useNewUrlParser: true,
         useUnifiedTopology: true,
         bufferCommands: false,
