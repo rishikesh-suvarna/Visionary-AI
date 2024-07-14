@@ -1,7 +1,7 @@
 
 # Visionary AI
 
-AI Image Manipulation SaaS
+Visionary AI is a state-of-the-art SaaS platform designed on Next.js, leveraging MongoDB for robust database management. Tailwind CSS ensures a sleek user interface, complemented by Shadcn's pre-built components for enhanced functionality. Using Cloudinary APIs, Visionary AI enables seamless and sophisticated image manipulation capabilities. Whether it's enhancing photos, generating artistic effects, or automating complex edits, Visionary AI empowers users to unleash their creativity effortlessly.
 
 ## Tech Stack
 

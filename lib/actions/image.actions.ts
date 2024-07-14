@@ -108,10 +108,10 @@ export async function getAllImages({ limit = 9, page = 1, searchQuery = '' }: {
       secure: true,
     })
 
-    let expression = 'folder=visionary';
+    let expression = 'resource_type:image';
 
     if (searchQuery) {
-      expression += ` AND ${searchQuery}`
+      expression += ` AND tags=${searchQuery}`
     }
 
     const { resources } = await cloudinary.search
